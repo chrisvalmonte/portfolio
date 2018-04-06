@@ -182,6 +182,10 @@ body.nav-menu-open {
 
 
 
+header {
+	margin-top: 80px;
+}
+
 header .summary {
 	color: #777;
 	font-style: italic;
@@ -406,6 +410,10 @@ footer .logo::before {
 	/* Allow scrolling in case of viewport resize */
 	body.nav-menu-open {
 		overflow: auto;
+	}
+
+	header {
+		margin-top: 0;
 	}
 }
 
